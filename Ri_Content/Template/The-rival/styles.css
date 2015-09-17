@@ -1,0 +1,94 @@
+body{
+    background-color: #fff;
+}
+#content {
+    background: url("img/Bg-Body.png") fixed 100% 50%;
+}
+.navbar-inverse {
+    background-color: rgba(54, 62, 60, 0.95);
+    border-color: #585858;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fbfbfb;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #b4b4b4;
+}
+@media (max-width: 992px){
+    .navbar-inverse .navbar-form{
+        display: none;
+    }
+}
+.navbar-collapse{
+    float: right;
+}
+@media (max-width: 768px) {
+    .navbar-collapse {
+        float: none;
+    }
+    .navbar-inverse .navbar-form{
+        display: block;
+    }
+    .form-control{
+        width: 93%;
+        float: right;
+        margin-left: 5px;
+    }
+    .header {
+    margin-top: 129px;
+    }
+}
+#logo{
+    height: 39px;
+    width: 160px;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+.header {
+    margin-top: 51px;
+}
+#myCarousel{
+    background-color: #363E3C;
+    height: 300px;
+    border: 1px solid #333030;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+#myCarousel img {
+    width: 470px;
+    height: 260px;
+    margin: 20px 38px 20px 15px;
+    border-radius: 10px;
+    border: 2px dotted #EAEAEA;
+    float: right;
+}
+.logo2{
+    margin: 0 auto;
+    padding: 10px;
+}
+a.right.carousel-control {
+    height: 45px;
+    width: 36px;
+    margin-top: 114px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(66, 61, 61);
+}
+a.left.carousel-control {
+    height: 45px;
+    width: 36px;
+    margin-top: 114px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(66, 61, 61);
+}
+.item p {
+    float: right;
+    width: 51%;
+    color: #fbfbfb;
+    line-height: 30px;
+    margin-top: 59px;
+}
+ol.carousel-indicators {
+    margin-right: -106px;
+}

@@ -1,0 +1,58 @@
+/******************/
+#login-form{
+    width:312px;
+    margin: 7% auto 0;
+}
+#login-form label{
+    font-family: tahoma;
+}
+#login-form .logo {
+    margin-bottom: 10px;
+    margin-right: 35%;
+}
+#login-form .submit{
+    float:left;
+}
+#login-form .checkbox{
+    float: right;
+}
+#login-form .panel-body {
+    box-shadow: 0px 0px 17px 1px;
+}
+.forgre_pass, .remember {
+    text-decoration: none;
+    font-family: Tahoma,Arial,sans-serif;
+    color: #999;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.forgre_pass:hover, .remember:hover {
+    text-decoration: none;
+}
+.login_error {
+    background: none repeat scroll 0% 0% #FEFEFE;
+    width: 33%;
+    padding: 15px 10px;
+    margin: 40px auto 0px;
+    border-right: 5px solid #E74C3C;
+    box-shadow: 1px 1px 7px #000;
+}
+.login_true {
+    background: none repeat scroll 0% 0% #FEFEFE;
+    width: 33%;
+    padding: 4px 10px;
+    margin: 40px auto 0px;
+    border-right: 5px solid #27AE60;
+    line-height: 25px;
+    box-shadow: 1px 1px 7px #000;
+}
+.logout_true{
+    background: none repeat scroll 0% 0% #FEFEFE;
+    width: 40%;
+    padding: 4px 10px;
+    margin: 40px auto 0px;
+    border-right: 5px solid #27AE60;
+    line-height: 25px;
+    box-shadow: 1px 1px 7px #000;
+}
